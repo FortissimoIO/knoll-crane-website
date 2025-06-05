@@ -5,6 +5,7 @@ import ConstructionIcon from '@mui/icons-material/Construction';
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
 import { Button } from "@/components/ui/button";
+import Link from "next/link";
 import {
     NavigationMenu,
     NavigationMenuContent,
@@ -25,7 +26,7 @@ export default function Navbar() {
                 <div className="container mx-auto px-6 lg:px-8">
                     <div className="flex items-center justify-between h-20">
                         <div className="flex items-center space-x-4">
-                            <a href="/" className="flex items-center space-x-4">
+                            <Link href="/" className="flex items-center space-x-4">
                                 {/* <div className="bg-red-700 p-2.5 rounded-lg shadow-md">
                                     <ConstructionIcon className="text-white h-6 w-6" />
                                 </div> */}
@@ -33,7 +34,7 @@ export default function Navbar() {
                                     <span className="text-xl font-black text-gray-900">KNOLL</span>
                                     <span className="text-[10px] font-bold text-red-700 tracking-widest -mt-1">CRANE, INC.</span>
                                 </div>
-                            </a>
+                            </Link>
                         </div>
 
                         <div className="hidden lg:flex items-center gap-2">
@@ -91,12 +92,12 @@ export default function Navbar() {
             {mobileMenuOpen && (
                 <div className="fixed inset-0 bg-white z-40 pt-20">
                     <div className="flex flex-col p-6 space-y-2 max-w-lg mx-auto">
-                        <a href="/" className="text-base font-medium text-gray-700 hover:text-red-700 hover:bg-gray-100 px-4 py-3 rounded-md transition-all duration-200" onClick={() => setMobileMenuOpen(false)}>Home</a>
-                        <a href="/services" className="text-base font-medium text-gray-700 hover:text-red-700 hover:bg-gray-100 px-4 py-3 rounded-md transition-all duration-200" onClick={() => setMobileMenuOpen(false)}>Services</a>
-                        <a href="/equipment" className="text-base font-medium text-gray-700 hover:text-red-700 hover:bg-gray-100 px-4 py-3 rounded-md transition-all duration-200" onClick={() => setMobileMenuOpen(false)}>Equipment</a>
-                        <a href="/projects" className="text-base font-medium text-gray-700 hover:text-red-700 hover:bg-gray-100 px-4 py-3 rounded-md transition-all duration-200" onClick={() => setMobileMenuOpen(false)}>Projects</a>
-                        <a href="/about" className="text-base font-medium text-gray-700 hover:text-red-700 hover:bg-gray-100 px-4 py-3 rounded-md transition-all duration-200" onClick={() => setMobileMenuOpen(false)}>About</a>
-                        <a href="/contact" className="text-base font-medium text-gray-700 hover:text-red-700 hover:bg-gray-100 px-4 py-3 rounded-md transition-all duration-200" onClick={() => setMobileMenuOpen(false)}>Contact</a>
+                        <Link href="/" className="text-base font-medium text-gray-700 hover:text-red-700 hover:bg-gray-100 px-4 py-3 rounded-md transition-all duration-200" onClick={() => setMobileMenuOpen(false)}>Home</Link>
+                        <Link href="/services" className="text-base font-medium text-gray-700 hover:text-red-700 hover:bg-gray-100 px-4 py-3 rounded-md transition-all duration-200" onClick={() => setMobileMenuOpen(false)}>Services</Link>
+                        <Link href="/equipment" className="text-base font-medium text-gray-700 hover:text-red-700 hover:bg-gray-100 px-4 py-3 rounded-md transition-all duration-200" onClick={() => setMobileMenuOpen(false)}>Equipment</Link>
+                        <Link href="/projects" className="text-base font-medium text-gray-700 hover:text-red-700 hover:bg-gray-100 px-4 py-3 rounded-md transition-all duration-200" onClick={() => setMobileMenuOpen(false)}>Projects</Link>
+                        <Link href="/about" className="text-base font-medium text-gray-700 hover:text-red-700 hover:bg-gray-100 px-4 py-3 rounded-md transition-all duration-200" onClick={() => setMobileMenuOpen(false)}>About</Link>
+                        <Link href="/contact" className="text-base font-medium text-gray-700 hover:text-red-700 hover:bg-gray-100 px-4 py-3 rounded-md transition-all duration-200" onClick={() => setMobileMenuOpen(false)}>Contact</Link>
                         <div className="pt-6 border-t border-gray-200 mt-6">
                             <Button asChild className="w-full bg-red-700 hover:bg-red-800 text-white font-semibold shadow-md hover:shadow-lg transition-all duration-200 h-12 rounded-md">
                                 <a href="tel:815-675-9400" className="flex items-center justify-center gap-2">

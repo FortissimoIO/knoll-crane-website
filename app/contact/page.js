@@ -29,13 +29,13 @@ export default function Contact() {
                         </Badge>
 
                         <h1 className="text-5xl lg:text-6xl font-black text-white mb-6">
-                            Let's Discuss<br />
+                            Let&apos;s Discuss<br />
                             <span className="text-red-600">Your Project</span>
                         </h1>
 
                         <p className="text-xl text-gray-300 mb-8 leading-relaxed">
                             Whether you need a quick quote, have questions about our services, or want to
-                            schedule a crane for your project, we're here to help. Contact us anytime—we're
+                            schedule a crane for your project, we&apos;re here to help. Contact us anytime—we&apos;re
                             available 24/7 for emergency services.
                         </p>
 
@@ -119,7 +119,7 @@ export default function Contact() {
                                 <CardHeader>
                                     <CardTitle className="text-2xl">Request a Quote</CardTitle>
                                     <CardDescription>
-                                        Fill out the form below and we'll get back to you within 24 hours
+                                        Fill out the form below and we&apos;ll get back to you within 24 hours
                                     </CardDescription>
                                 </CardHeader>
                                 <CardContent className="space-y-6">
@@ -319,7 +319,7 @@ export default function Contact() {
                         Ready to Get Started?
                     </h2>
                     <p className="text-xl mb-8 max-w-2xl mx-auto">
-                        Don't wait—contact us today for a free quote and let's discuss how we can help with your next project.
+                        Don&apos;t wait—contact us today for a free quote and let&apos;s discuss how we can help with your next project.
                     </p>
                     <div className="flex flex-col sm:flex-row gap-4 justify-center">
                         <Button asChild size="lg" variant="secondary">

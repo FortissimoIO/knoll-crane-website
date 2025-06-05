@@ -36,7 +36,7 @@ export default function About() {
                         <p className="text-xl text-gray-300 mb-8 leading-relaxed">
                             For over 25 years, Knoll Crane has been the trusted partner for construction
                             projects across Wisconsin and Illinois. Our commitment to safety, reliability,
-                            and excellence has made us the region's premier crane service provider.
+                            and excellence has made us the region&apos;s premier crane service provider.
                         </p>
 
                         <div className="flex flex-col sm:flex-row gap-4">
@@ -65,19 +65,19 @@ export default function About() {
                                 Founded in 1996, Knoll Crane began as a small family-owned business with a single crane
                                 and a commitment to providing reliable lifting services to the local construction community.
                                 What started as a vision to fill a gap in the market for dependable, safety-focused crane
-                                services has grown into one of the region's most trusted names in the industry.
+                                services has grown into one of the region&apos;s most trusted names in the industry.
                             </p>
 
                             <p className="mb-6">
-                                Over the years, we've expanded our fleet, enhanced our capabilities, and built a team of
-                                highly skilled, NCCCO certified operators. But what hasn't changed is our dedication to
+                                Over the years, we&apos;ve expanded our fleet, enhanced our capabilities, and built a team of
+                                highly skilled, NCCCO certified operators. But what hasn&apos;t changed is our dedication to
                                 treating every project—whether a small residential job or a major commercial installation—with
                                 the same level of professionalism and care.
                             </p>
 
                             <p>
                                 Today, Knoll Crane serves contractors across Wisconsin and Illinois, providing 24/7 crane
-                                services with a perfect safety record. We're proud of our history, but we're even more
+                                services with a perfect safety record. We&apos;re proud of our history, but we&apos;re even more
                                 excited about continuing to serve our community for generations to come.
                             </p>
                         </div>
@@ -164,7 +164,7 @@ export default function About() {
                     <div className="text-center mb-12">
                         <h2 className="text-3xl lg:text-4xl font-bold mb-4">Our Team</h2>
                         <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-                            Experienced professionals dedicated to your project's success
+                            Experienced professionals dedicated to your project&apos;s success
                         </p>
                     </div>
 

@@ -88,7 +88,7 @@ export default function Home() {
 
             <p className="text-2xl text-gray-300 mb-12 max-w-4xl animate-in slide-in-from-bottom duration-1000 delay-200 leading-relaxed">
               NCCCO certified operators providing punctual, dependable, and safe crane rental services.
-              With 40-ton capacity and 130' boom length, we handle projects of any size.
+              With 40-ton capacity and 130&apos; boom length, we handle projects of any size.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-6 mb-16 animate-in slide-in-from-bottom duration-1000 delay-300">
@@ -443,8 +443,8 @@ export default function Home() {
               </h2>
 
               <p className="text-lg text-gray-600 mb-6">
-                At Knoll Crane, safety isn't just a priority—it's our foundation. With over 25 years of
-                incident-free operations, we've built our reputation on meticulous planning, rigorous
+                At Knoll Crane, safety isn&apos;t just a priority—it&apos;s our foundation. With over 25 years of
+                incident-free operations, we&apos;ve built our reputation on meticulous planning, rigorous
                 safety protocols, and unwavering attention to detail on every single lift.
               </p>
 
@@ -634,8 +634,8 @@ export default function Home() {
                 ))}
               </div>
               <p className="text-gray-600 mb-6 italic">
-                "Knoll Crane has been our go-to for years. Their operators are skilled, professional,
-                and always on time. Can't recommend them enough!"
+                &quot;Knoll Crane has been our go-to for years. Their operators are skilled, professional,
+                and always on time. Can&apos;t recommend them enough!&quot;
               </p>
               <div className="border-t pt-4">
                 <div className="font-semibold text-gray-900">John Peterson</div>
@@ -650,8 +650,8 @@ export default function Home() {
                 ))}
               </div>
               <p className="text-gray-600 mb-6 italic">
-                "Emergency service at 2 AM? No problem for Knoll. They helped us salvage a critical
-                project timeline. True professionals."
+                &quot;Emergency service at 2 AM? No problem for Knoll. They helped us salvage a critical
+                project timeline. True professionals.&quot;
               </p>
               <div className="border-t pt-4">
                 <div className="font-semibold text-gray-900">Maria Rodriguez</div>
@@ -666,8 +666,8 @@ export default function Home() {
                 ))}
               </div>
               <p className="text-gray-600 mb-6 italic">
-                "Fair pricing, excellent service, and they always prioritize safety.
-                Knoll Crane is simply the best in the business."
+                &quot;Fair pricing, excellent service, and they always prioritize safety.
+                Knoll Crane is simply the best in the business.&quot;
               </p>
               <div className="border-t pt-4">
                 <div className="font-semibold text-gray-900">David Chen</div>
@@ -691,7 +691,7 @@ export default function Home() {
                 Request a Free Quote
               </h2>
               <p className="text-lg text-gray-600 mb-8">
-                Tell us about your project and we'll provide a competitive quote within 24 hours.
+                Tell us about your project and we&apos;ll provide a competitive quote within 24 hours.
                 For immediate assistance, call us at (815) 675-9400.
               </p>
 
@@ -737,7 +737,7 @@ export default function Home() {
 
               <div className="bg-red-700 text-white rounded-lg p-6">
                 <h3 className="text-xl font-bold mb-3">24/7 Emergency Service</h3>
-                <p className="mb-4">Need immediate crane service? We're here to help.</p>
+                <p className="mb-4">Need immediate crane service? We&apos;re here to help.</p>
                 <a href="tel:815-675-9400" className="inline-flex items-center bg-white text-red-700 px-6 py-3 rounded-md font-bold hover:bg-gray-100 transition-colors">
                   <PhoneIcon className="mr-2" />
                   Call Now

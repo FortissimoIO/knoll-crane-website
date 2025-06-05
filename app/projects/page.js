@@ -142,7 +142,7 @@ export default function Projects() {
 
                         <p className="text-xl text-gray-300 mb-8 leading-relaxed">
                             With over 25 years of experience and thousands of successful lifts,
-                            we've built a reputation for reliability, safety, and precision across
+                            we&apos;ve built a reputation for reliability, safety, and precision across
                             Wisconsin and Illinois.
                         </p>
 
