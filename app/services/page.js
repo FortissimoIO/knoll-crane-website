@@ -61,7 +61,15 @@ export default function Services() {
     return (
         <div className="min-h-screen bg-background">
             {/* Hero Section */}
-            <section className="relative bg-gradient-to-br from-gray-900 via-black to-gray-800 py-24">
+            <section 
+                className="relative bg-gradient-to-br from-gray-900 via-black to-gray-800 py-24"
+                style={{
+                    backgroundImage: `url('/images/kci-hero2.jpg')`,
+                    backgroundSize: 'cover',
+                    backgroundPosition: 'center',
+                    backgroundBlendMode: 'overlay'
+                }}
+            >
                 <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
 
                 <div className="relative z-10 container mx-auto px-6 lg:px-8">

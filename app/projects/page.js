@@ -17,31 +17,31 @@ const projectSlides = [
     {
         title: "Commercial Steel Beam Installation",
         description: "40-ton lift for new office complex in Milwaukee",
-        image: "https://via.placeholder.com/800x600/cc0000/ffffff?text=Commercial+Project",
+        image: "/images/recent-projects/recent-project1.JPEG",
         orientation: "landscape"
     },
     {
         title: "Residential Truss Placement",
         description: "Precision placement of roof trusses for luxury homes",
-        image: "https://via.placeholder.com/800x600/990000/ffffff?text=Residential+Lifting",
+        image: "/images/recent-projects/recent-project2.JPEG",
         orientation: "landscape"
     },
     {
         title: "Industrial Equipment Installation",
         description: "HVAC system installation at manufacturing facility",
-        image: "https://via.placeholder.com/800x600/660000/ffffff?text=Industrial+Install",
+        image: "/images/recent-projects/recent-project3.JPEG",
         orientation: "landscape"
     },
     {
         title: "Emergency Storm Response",
         description: "24/7 emergency crane services for storm damage",
-        image: "https://via.placeholder.com/800x600/330000/ffffff?text=Emergency+Service",
+        image: "/images/recent-projects/recent-project4.JPEG",
         orientation: "landscape"
     },
     {
         title: "Precast Panel Installation",
         description: "Efficient installation of precast concrete panels",
-        image: "https://via.placeholder.com/800x600/800000/ffffff?text=Precast+Installation",
+        image: "/images/recent-projects/crane-precast-panel.JPEG",
         orientation: "landscape"
     }
 ];
@@ -125,7 +125,15 @@ export default function Projects() {
     return (
         <div className="min-h-screen bg-background">
             {/* Hero Section */}
-            <section className="relative bg-gradient-to-br from-gray-900 via-black to-gray-800 py-24">
+            <section 
+                className="relative bg-gradient-to-br from-gray-900 via-black to-gray-800 py-24"
+                style={{
+                    backgroundImage: `url('/images/kci-hero3.jpg')`,
+                    backgroundSize: 'cover',
+                    backgroundPosition: 'center',
+                    backgroundBlendMode: 'overlay'
+                }}
+            >
                 <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
 
                 <div className="relative z-10 container mx-auto px-6 lg:px-8">
