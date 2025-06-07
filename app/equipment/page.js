@@ -1,5 +1,6 @@
 "use client";
 import React from "react";
+import Image from "next/image";
 import LocalShippingIcon from '@mui/icons-material/LocalShipping';
 import HeightIcon from '@mui/icons-material/Height';
 import EngineeringIcon from '@mui/icons-material/Engineering';
@@ -106,9 +107,16 @@ export default function Equipment() {
                             </div>
                         </div>
 
-                        <Card className="bg-gradient-to-br from-muted/50 to-muted h-[500px] flex items-center justify-center">
-                            <LocalShippingIcon className="h-64 w-64 text-muted-foreground/20" />
-                        </Card>
+                        <div className="relative overflow-hidden rounded-lg">
+                            <Image
+                                src="/images/kci-hero4.png"
+                                alt="Knoll Crane 40-ton mobile crane in operation"
+                                width={600}
+                                height={500}
+                                className="w-full h-[500px] object-cover rounded-lg shadow-lg"
+                                quality={90}
+                            />
+                        </div>
                     </div>
 
                     {/* Technical Specifications */}
