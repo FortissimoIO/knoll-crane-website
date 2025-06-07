@@ -23,6 +23,7 @@ import HeightIcon from '@mui/icons-material/Height';
 import InventoryIcon from '@mui/icons-material/Inventory';
 import HealthAndSafetyIcon from '@mui/icons-material/HealthAndSafety';
 import { Carousel } from '../components/Carousel';
+import CyclingHero from '../components/CyclingHero';
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -68,61 +69,62 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-background">
       {/* Hero Section */}
-      <section className="relative min-h-screen flex items-center pb-20 bg-gradient-to-br from-gray-900 via-black to-gray-800">
-        <div className="absolute inset-0 bg-[url('https://via.placeholder.com/1920x1080/000000/000000?text=+')] opacity-30"></div>
-        <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
+      <section className="relative">
+        <CyclingHero>
+          <div className="min-h-screen flex items-center pb-20">
+            <div className="container mx-auto px-6 lg:px-8 py-20">
+              <div className="max-w-6xl">
+                <div className="mb-8">
+                  <Badge variant="outline" className="bg-red-700/20 text-red-300 border-red-700/50 mb-8 backdrop-blur-sm px-4 py-2 text-base">
+                    <VerifiedIcon className="mr-3 h-5 w-5" />
+                    Serving Wisconsin & Illinois Since 1996
+                  </Badge>
+                </div>
 
-        <div className="relative z-10 container mx-auto px-6 lg:px-8 py-20">
-          <div className="max-w-6xl">
-            <div className="mb-8">
-              <Badge variant="outline" className="bg-red-700/20 text-red-300 border-red-700/50 mb-8 backdrop-blur-sm px-4 py-2 text-base">
-                <VerifiedIcon className="mr-3 h-5 w-5" />
-                Serving Wisconsin & Illinois Since 1996
-              </Badge>
-            </div>
+                <h1 className="text-6xl lg:text-8xl font-black text-white mb-8 leading-tight animate-in slide-in-from-bottom duration-1000">
+                  Professional Crane<br />
+                  <span className="text-red-600 bg-gradient-to-r from-red-600 to-red-700 bg-clip-text text-transparent">Rental Services</span>
+                </h1>
 
-            <h1 className="text-6xl lg:text-8xl font-black text-white mb-8 leading-tight animate-in slide-in-from-bottom duration-1000">
-              Professional Crane<br />
-              <span className="text-red-600 bg-gradient-to-r from-red-600 to-red-700 bg-clip-text text-transparent">Rental Services</span>
-            </h1>
+                <p className="text-2xl text-gray-300 mb-12 max-w-4xl animate-in slide-in-from-bottom duration-1000 delay-200 leading-relaxed">
+                  NCCCO certified operators providing punctual, dependable, and safe crane rental services.
+                  With 40-ton capacity and 130&apos; boom length, we handle projects of any size.
+                </p>
 
-            <p className="text-2xl text-gray-300 mb-12 max-w-4xl animate-in slide-in-from-bottom duration-1000 delay-200 leading-relaxed">
-              NCCCO certified operators providing punctual, dependable, and safe crane rental services.
-              With 40-ton capacity and 130&apos; boom length, we handle projects of any size.
-            </p>
+                <div className="flex flex-col sm:flex-row gap-6 mb-16 animate-in slide-in-from-bottom duration-1000 delay-300">
+                  <Button asChild size="lg" className="shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 px-8 py-4 text-lg">
+                    <a href="#contact" className="flex items-center text-white">
+                      Get Free Quote
+                      <ArrowForwardIcon className="ml-3 h-5 w-5" />
+                    </a>
+                  </Button>
+                  <Button asChild variant="outline" size="lg" className="bg-white/10 backdrop-blur-sm border-white/20 text-white hover:bg-white/20 px-8 py-4 text-lg">
+                    <a href="tel:815-675-9400" className="flex items-center">
+                      <PhoneIcon className="mr-3 h-5 w-5" />
+                      Call (815) 675-9400
+                    </a>
+                  </Button>
+                </div>
 
-            <div className="flex flex-col sm:flex-row gap-6 mb-16 animate-in slide-in-from-bottom duration-1000 delay-300">
-              <Button asChild size="lg" className="shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 px-8 py-4 text-lg">
-                <a href="#contact" className="flex items-center text-white">
-                  Get Free Quote
-                  <ArrowForwardIcon className="ml-3 h-5 w-5" />
-                </a>
-              </Button>
-              <Button asChild variant="outline" size="lg" className="bg-white/10 backdrop-blur-sm border-white/20 text-white hover:bg-white/20 px-8 py-4 text-lg">
-                <a href="tel:815-675-9400" className="flex items-center">
-                  <PhoneIcon className="mr-3 h-5 w-5" />
-                  Call (815) 675-9400
-                </a>
-              </Button>
-            </div>
-
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-8 animate-in slide-in-from-bottom duration-1000 delay-500">
-              {[
-                { number: "25+", label: "Years Experience" },
-                { number: "24/7", label: "Emergency Service" },
-                { number: "100%", label: "Safety Record" },
-                { number: "3HR", label: "Min. Rental" }
-              ].map((stat, i) => (
-                <Card key={i} className="bg-white/10 backdrop-blur-sm border-white/20 text-center hover:bg-white/20 transition-all duration-300 p-6">
-                  <CardContent className="pt-6">
-                    <div className="text-4xl lg:text-5xl font-black text-red-500 mb-3">{stat.number}</div>
-                    <div className="text-sm text-gray-300 uppercase tracking-wider font-semibold">{stat.label}</div>
-                  </CardContent>
-                </Card>
-              ))}
+                <div className="grid grid-cols-2 md:grid-cols-4 gap-8 animate-in slide-in-from-bottom duration-1000 delay-500">
+                  {[
+                    { number: "25+", label: "Years Experience" },
+                    { number: "24/7", label: "Emergency Service" },
+                    { number: "100%", label: "Safety Record" },
+                    { number: "3HR", label: "Min. Rental" }
+                  ].map((stat, i) => (
+                    <Card key={i} className="bg-white/10 backdrop-blur-sm border-white/20 text-center hover:bg-white/20 transition-all duration-300 p-6">
+                      <CardContent className="pt-6">
+                        <div className="text-4xl lg:text-5xl font-black text-red-500 mb-3">{stat.number}</div>
+                        <div className="text-sm text-gray-300 uppercase tracking-wider font-semibold">{stat.label}</div>
+                      </CardContent>
+                    </Card>
+                  ))}
+                </div>
+              </div>
             </div>
           </div>
-        </div>
+        </CyclingHero>
       </section>
 
       {/* Services Section */}
@@ -888,7 +890,7 @@ export default function Home() {
           </div>
 
           <div className="border-t border-gray-800 pt-8 text-center text-gray-400 text-sm">
-            <p>&copy; 2024 Knoll Crane, Inc. All rights reserved. | Licensed & Insured</p>
+            <p>&copy; 2025 Knoll Crane, Inc. All rights reserved. | Licensed & Insured</p>
           </div>
         </div>
       </footer>
