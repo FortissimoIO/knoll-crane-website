@@ -62,7 +62,7 @@ export default function Services() {
         <div className="min-h-screen bg-background">
             {/* Hero Section */}
             <section 
-                className="relative bg-gradient-to-br from-gray-900 via-black to-gray-800 py-24"
+                className="relative bg-gradient-to-br from-gray-900 via-black to-gray-800 py-16 sm:py-20 md:py-24"
                 style={{
                     backgroundImage: `url('/images/kci-hero2.jpg')`,
                     backgroundSize: 'cover',
@@ -72,19 +72,19 @@ export default function Services() {
             >
                 <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
 
-                <div className="relative z-10 container mx-auto px-6 lg:px-8">
+                <div className="relative z-10 container mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="max-w-4xl">
-                        <Badge variant="outline" className="bg-red-700/20 text-red-300 border-red-700/50 mb-6 backdrop-blur-sm px-4 py-2">
-                            <BuildIcon className="mr-2 h-4 w-4" />
+                        <Badge variant="outline" className="bg-red-700/20 text-red-300 border-red-700/50 mb-4 sm:mb-6 backdrop-blur-sm px-3 py-2 text-xs sm:text-sm">
+                            <BuildIcon className="mr-2 h-3 w-3 sm:h-4 sm:w-4" />
                             Professional Crane Services
                         </Badge>
 
-                        <h1 className="text-5xl lg:text-6xl font-black text-white mb-6">
+                        <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black text-white mb-4 sm:mb-6 leading-tight">
                             Comprehensive Crane<br />
                             <span className="text-red-600">Solutions & Services</span>
                         </h1>
 
-                        <p className="text-xl text-gray-300 mb-8 leading-relaxed">
+                        <p className="text-base sm:text-lg md:text-xl text-gray-300 mb-6 sm:mb-8 leading-relaxed">
                             From residential construction to industrial installations, Knoll Crane provides
                             expert lifting solutions with NCCCO certified operators and state-of-the-art equipment.
                             Available 24/7 for all your project needs.
@@ -92,13 +92,13 @@ export default function Services() {
 
                         <div className="flex flex-col sm:flex-row gap-4">
                             <Button asChild size="lg" className="bg-red-700 hover:bg-red-800 shadow-lg">
-                                <a href="/contact" className="flex items-center">
+                                <a href="/contact" className="flex items-center justify-center">
                                     Get a Quote
-                                    <ArrowForwardIcon className="ml-2 h-5 w-5" />
+                                    <ArrowForwardIcon className="ml-2 h-4 w-4 sm:h-5 sm:w-5" />
                                 </a>
                             </Button>
                             <Button asChild variant="outline" size="lg" className="border-white/20 text-white hover:bg-white/10">
-                                <a href="tel:815-675-9400">Call (815) 675-9400</a>
+                                <a href="tel:815-675-9400" className="flex items-center justify-center">Call (815) 675-9400</a>
                             </Button>
                         </div>
                     </div>
