@@ -74,7 +74,7 @@ export default function Home() {
                 </h1>
 
                 <p className="text-lg sm:text-xl lg:text-2xl text-gray-300 mb-8 max-w-3xl leading-relaxed">
-                  NCCCO certified operators providing punctual, dependable, and safe crane rental services with 40-ton capacity and 130' boom length.
+                  NCCCO certified operators providing punctual, dependable, and safe crane rental services with 40-ton capacity and 130&apos; boom length.
                 </p>
 
                 <div className="flex flex-col sm:flex-row gap-4 mb-12">
@@ -396,7 +396,7 @@ export default function Home() {
                       <StarIcon key={j} className="text-yellow-500 h-4 w-4" />
                     ))}
                   </div>
-                  <p className="text-gray-600 mb-4 italic">"{testimonial.quote}"</p>
+                  <p className="text-gray-600 mb-4 italic">&ldquo;{testimonial.quote}&rdquo;</p>
                   <div className="border-t pt-4">
                     <div className="font-semibold text-gray-900">{testimonial.author}</div>
                     <div className="text-sm text-gray-600">{testimonial.company}</div>
@@ -421,7 +421,7 @@ export default function Home() {
                 Request a Free Quote
               </h2>
               <p className="text-lg text-gray-600 mb-8">
-                Tell us about your project and we'll provide a competitive quote within 24 hours.
+                Tell us about your project and we&apos;ll provide a competitive quote within 24 hours.
               </p>
 
               <div className="space-y-6 mb-8">
@@ -465,7 +465,7 @@ export default function Home() {
               <Card className="bg-red-700 text-white border-red-700">
                 <CardContent className="p-6">
                   <h3 className="text-xl font-bold mb-3">24/7 Emergency Service</h3>
-                  <p className="mb-4">Need immediate crane service? We're here to help.</p>
+                  <p className="mb-4">Need immediate crane service? We&apos;re here to help.</p>
                   <Button asChild variant="secondary">
                     <a href="tel:815-675-9400" className="flex items-center bg-white text-red-700 hover:bg-gray-100">
                       <PhoneIcon className="mr-2 h-4 w-4" />

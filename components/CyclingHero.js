@@ -19,10 +19,10 @@ const CyclingHero = ({ children }) => {
       setCurrentImageIndex((prevIndex) => 
         (prevIndex + 1) % heroImages.length
       );
-    }, 3000); // Change image every 3 seconds
+    }, 4000);
 
     return () => clearInterval(interval);
-  }, []);
+  }, [heroImages.length]);
 
   return (
     <div className="relative min-h-screen overflow-hidden">

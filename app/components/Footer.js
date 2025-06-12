@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 import ConstructionIcon from '@mui/icons-material/Construction';
 
 export default function Footer() {
@@ -24,12 +25,12 @@ export default function Footer() {
           <div>
             <h4 className="font-semibold mb-4">Services</h4>
             <ul className="space-y-2 text-gray-400 text-sm">
-              <li><a href="/" className="hover:text-white transition-colors">Home</a></li>
-              <li><a href="/services" className="hover:text-white transition-colors">Services</a></li>
-              <li><a href="/projects" className="hover:text-white transition-colors">Projects</a></li>
-              <li><a href="/equipment" className="hover:text-white transition-colors">Equipment</a></li>
-              <li><a href="/about" className="hover:text-white transition-colors">About</a></li>
-              <li><a href="/contact" className="hover:text-white transition-colors">Contact</a></li>
+              <li><Link href="/" className="hover:text-white transition-colors">Home</Link></li>
+              <li><Link href="/services" className="hover:text-white transition-colors">Services</Link></li>
+              <li><Link href="/projects" className="hover:text-white transition-colors">Projects</Link></li>
+              <li><Link href="/equipment" className="hover:text-white transition-colors">Equipment</Link></li>
+              <li><Link href="/about" className="hover:text-white transition-colors">About</Link></li>
+              <li><Link href="/contact" className="hover:text-white transition-colors">Contact</Link></li>
             </ul>
           </div>
 
