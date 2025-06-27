@@ -100,7 +100,7 @@ export default function Contact() {
                                 <h3 className="font-semibold mb-2">Service Area</h3>
                                 <p className="text-muted-foreground text-sm">
                                     Wisconsin & Illinois<br />
-                                    Based in Kenosha, WI
+                                    Based in Spring Grove, IL
                                 </p>
                             </CardContent>
                         </Card>
@@ -113,7 +113,7 @@ export default function Contact() {
                                 <h3 className="font-semibold mb-2">Hours</h3>
                                 <p className="text-muted-foreground text-sm">
                                     24/7 Emergency Service<br />
-                                    Office: Mon-Fri 7AM-5PM
+                                    Office: Mon-Fri 7AM-3:30PM
                                 </p>
                             </CardContent>
                         </Card>
@@ -127,7 +127,7 @@ export default function Contact() {
                                 <CardHeader>
                                     <CardTitle className="text-2xl">Request a Quote</CardTitle>
                                     <CardDescription>
-                                        Fill out the form below and we&apos;ll get back to you within 24 hours
+                                        Fill out the form below and we&apos;ll get back to you
                                     </CardDescription>
                                 </CardHeader>
                                 <CardContent className="space-y-6">
@@ -254,7 +254,7 @@ export default function Contact() {
                                         </li>
                                         <li className="flex items-start">
                                             <CheckCircleIcon className="text-green-600 mr-2 mt-0.5 h-5 w-5 flex-shrink-0" />
-                                            <span className="text-sm">25+ years of experience</span>
+                                            <span className="text-sm">30+ years of experience</span>
                                         </li>
                                         <li className="flex items-start">
                                             <CheckCircleIcon className="text-green-600 mr-2 mt-0.5 h-5 w-5 flex-shrink-0" />
@@ -286,7 +286,7 @@ export default function Contact() {
                                         <div>
                                             <p className="font-semibold mb-1">Illinois</p>
                                             <ul className="text-muted-foreground space-y-1">
-                                                <li>• Chicago</li>
+                                                <li>• Suburbs of Chicago</li>
                                                 <li>• Waukegan</li>
                                                 <li>• Rockford</li>
                                                 <li>• North Suburbs</li>
@@ -313,7 +313,7 @@ export default function Contact() {
                     <Card className="h-96 flex items-center justify-center">
                         <div className="text-center">
                             <LocationOnIcon className="text-muted-foreground mb-4" style={{ fontSize: 60 }} />
-                            <p className="text-lg font-semibold">Kenosha, Wisconsin</p>
+                            <p className="text-lg font-semibold">Spring Grove, Illinois</p>
                             <p className="text-muted-foreground">Serving a 150-mile radius</p>
                         </div>
                     </Card>

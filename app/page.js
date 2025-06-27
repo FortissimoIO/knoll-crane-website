@@ -74,7 +74,7 @@ export default function Home() {
                 </h1>
 
                 <p className="text-lg sm:text-xl lg:text-2xl text-gray-300 mb-8 max-w-3xl leading-relaxed">
-                  NCCCO certified operators providing punctual, dependable, and safe crane rental services with 40-ton capacity and 130' boom length.
+                  NCCCO certified operators providing punctual, dependable, and safe crane rental services with 40-ton capacity and 150FT boom length.
                 </p>
 
                 <div className="flex flex-col sm:flex-row gap-4 mb-12">
