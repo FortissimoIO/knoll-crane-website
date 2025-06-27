@@ -1,5 +1,6 @@
 "use client";
 import React, { useCallback, useEffect, useState } from 'react';
+import Image from 'next/image';
 import useEmblaCarousel from 'embla-carousel-react';
 import Autoplay from 'embla-carousel-autoplay';
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
@@ -45,10 +46,12 @@ export const Carousel = ({ slides }) => {
                             <div className="relative h-[600px] md:h-[700px] bg-black">
                                 {slide.image ? (
                                     <div className="h-full flex items-center justify-center">
-                                        <img
+                                        <Image
                                             src={slide.image}
                                             alt={slide.title}
-                                            className="h-full w-auto max-w-full object-contain"
+                                            fill
+                                            style={{ objectFit: 'contain' }}
+                                            sizes="100vw"
                                         />
                                     </div>
                                 ) : (

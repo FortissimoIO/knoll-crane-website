@@ -22,7 +22,7 @@ const CyclingHero = ({ children }) => {
     }, 3000); // Change image every 3 seconds
 
     return () => clearInterval(interval);
-  }, []);
+  }, [heroImages.length]);
 
   return (
     <div className="relative min-h-screen overflow-hidden">
