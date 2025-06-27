@@ -1,11 +1,11 @@
 "use client";
 import React, { useCallback, useEffect, useState } from 'react';
+import Image from 'next/image';
 import useEmblaCarousel from 'embla-carousel-react';
 import Autoplay from 'embla-carousel-autoplay';
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import ConstructionIcon from '@mui/icons-material/Construction';
-import Image from 'next/image';
 
 export const Carousel = ({ slides }) => {
     const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true }, [
@@ -49,12 +49,9 @@ export const Carousel = ({ slides }) => {
                                         <Image
                                             src={slide.image}
                                             alt={slide.title}
-                                            width={600}
-                                            height={400}
-                                            className={`w-full object-cover transition-transform duration-300 group-hover:scale-110 ${
-                                                slide.orientation === 'portrait' ? 'h-80' : 'h-64'
-                                            }`}
-                                            quality={90}
+                                            fill
+                                            style={{ objectFit: 'contain' }}
+                                            sizes="100vw"
                                         />
                                     </div>
                                 ) : (

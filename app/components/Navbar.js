@@ -31,8 +31,8 @@ export default function Navbar() {
                                     <ConstructionIcon className="text-white h-6 w-6" />
                                 </div> */}
                                 <div className="flex flex-col">
-                                    <span className="text-xl font-black text-gray-900">KNOLL</span>
-                                    <span className="text-[10px] font-bold text-red-700 tracking-widest -mt-1">CRANE, INC.</span>
+                                    <span className="text-3xl font-black text-gray-900">KNOLL</span>
+                                    <span className="text-[15px] font-bold text-red-700 tracking-widest -mt-1">CRANE, INC.</span>
                                 </div>
                             </Link>
                         </div>
